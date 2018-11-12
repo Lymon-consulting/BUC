@@ -6,7 +6,11 @@
 	<groupId>com.banorte.buc</groupId>
 	<artifactId>BUC</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>pom</packaging>
+    <modules>
+		<module>banorte-buc-data</module>
+        <module>banorte-buc-server</module>
+    </modules>
+    <packaging>pom</packaging>
 
 	<name>BUC</name>
 	<description>Banorte integraciones</description>
@@ -49,6 +53,5 @@
 			</plugin>
 		</plugins>
 	</build>
-
-
+	
 </project>
